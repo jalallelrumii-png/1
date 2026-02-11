@@ -1,0 +1,62 @@
+{
+  "name": "Aplikasi Kasir & Stok Barang",
+  "short_name": "Kasir App",
+  "description": "Aplikasi kasir dan manajemen stok barang untuk toko dan UMKM",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABnklEQVR4nO2WP0vDQBjGnxRFEBx0EBzEQXDq4CI4iYOTg4uDo5OTk4uLi4Ojk4Ojo5OTk4uLi4Ojk5OTi4uLi4Ojk5OTi4uLi4Ojk5OTi4v/0VBabZq0SW/S3PeBC+Ty5OF97r1LCgAAAAAAAAAAAAAAAAAAAAAA/hNJkqSklNpVSh0qpY6UUkdKqUOl1IFS6kApdaCU2ldK7Sul9pRSe0qpXaXUjlJqWym1pZTaVEptKKXWlVJrSqlVpdSKUmpZKbWklFpUSi0opRaUUvNKqTml1KxSakYpNa2UmlJKTSqlJpRSI0qpYaXUkFJqUCk1oJTqV0r1KaV6lVI9SqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJK/VdJk+QLwP3xvK0+YgAAAABJRU5ErkJggg==",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABnklEQVR4nO2WP0vDQBjGnxRFEBx0EBzEQXDq4CI4iYOTg4uDo5OTk4uLi4Ojk4Ojo5OTk4uLi4Ojk5OTi4uLi4Ojk5OTi4uLi4Ojk5OTi4v/0VBabZq0SW/S3PeBC+Ty5OF97r1LCgAAAAAAAAAAAAAAAAAAAAAA/hNJkqSklNpVSh0qpY6UUkdKqUOl1IFS6kApdaCU2ldK7Sul9pRSe0qpXaXUjlJqWym1pZTaVEptKKXWlVJrSqlVpdSKUmpZKbWklFpUSi0opRaUUvNKqTml1KxSakYpNa2UmlJKTSqlJpRSI0qpYaXUkFJqUCk1oJTqV0r1KaV6lVI9SqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJK/VdJk+QLwP3xvK0+YgAAAABJRU5ErkJggg==",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kasir",
+      "short_name": "Kasir",
+      "description": "Buka halaman kasir",
+      "url": "/?tab=kasir",
+      "icons": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABnklEQVR4nO2WP0vDQBjGnxRFEBx0EBzEQXDq4CI4iYOTg4uDo5OTk4uLi4Ojk4Ojo5OTk4uLi4Ojk5OTi4uLi4Ojk5OTi4uLi4Ojk5OTi4v/0VBabZq0SW/S3PeBC+Ty5OF97r1LCgAAAAAAAAAAAAAAAAAAAAAA/hNJkqSklNpVSh0qpY6UUkdKqUOl1IFS6kApdaCU2ldK7Sul9pRSe0qpXaXUjlJqWym1pZTaVEptKKXWlVJrSqlVpdSKUmpZKbWklFpUSi0opRaUUvNKqTml1KxSakYpNa2UmlJKTSqlJpRSI0qpYaXUkFJqUCk1oJTqV0r1KaV6lVI9SqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJK/VdJk+QLwP3xvK0+YgAAAABJRU5ErkJggg==",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Produk",
+      "short_name": "Produk",
+      "description": "Kelola produk",
+      "url": "/?tab=produk",
+      "icons": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABnklEQVR4nO2WP0vDQBjGnxRFEBx0EBzEQXDq4CI4iYOTg4uDo5OTk4uLi4Ojk4Ojo5OTk4uLi4Ojk5OTi4uLi4Ojk5OTi4uLi4Ojk5OTi4v/0VBabZq0SW/S3PeBC+Ty5OF97r1LCgAAAAAAAAAAAAAAAAAAAAAA/hNJkqSklNpVSh0qpY6UUkdKqUOl1IFS6kApdaCU2ldK7Sul9pRSe0qpXaXUjlJqWym1pZTaVEptKKXWlVJrSqlVpdSKUmpZKbWklFpUSi0opRaUUvNKqTml1KxSakYpNa2UmlJKTSqlJpRSI0qpYaXUkFJqUCk1oJTqV0r1KaV6lVI9SqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJKDSqlupVS3UqpLqXUoFKqWynVrZTqUkoNKqW6lVLdSqkupdSgUqpbKdWtlOpSSg0qpbqVUt1KqS6l1KBSqlsp1a2U6lJK/VdJk+QLwP3xvK0+YgAAAABJRU5ErkJggg==",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
+
